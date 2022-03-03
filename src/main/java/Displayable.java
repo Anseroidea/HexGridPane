@@ -2,6 +2,6 @@ import javafx.scene.image.Image;
 
 public interface Displayable {
 
-    Image getPane();
+    Image getImage();
 
 }

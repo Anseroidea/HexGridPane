@@ -8,7 +8,7 @@ public class Tile implements Displayable{
         image = i;
     }
 
-    public Image getPane() {
+    public Image getImage() {
         return image;
     }
 }
