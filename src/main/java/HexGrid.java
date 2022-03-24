@@ -10,7 +10,7 @@ public class HexGrid<T> {
     }
 
     public void add(T t, int r, int c){
-        if (r < 0 || c < 0){
+        if (c < 0){
             return;
         }
         if (!map.containsKey(r)){
